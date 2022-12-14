@@ -1,0 +1,32 @@
+.div{
+margin-top:100px;    
+text-align: center;
+
+}
+button{
+    font-size:x-large;
+    color:white;
+    background-color:black;
+    border-radius: 20px;
+}
+
+#sum-el{
+ margin-top:300px;   
+ font-size:x-large;
+ font-weight:200; 
+
+}
+
+.span-num{
+ margin-bottom:20px;
+ font-size:larger;
+ text-decoration:underline;
+ color:blue;  
+}
+
+#num1-el{
+ margin-right:10px;   
+}
+#num2-el {
+    margin-left: 10px;
+}
