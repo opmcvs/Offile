@@ -1,0 +1,64 @@
+
+.question-title p{
+   
+    margin-bottom:0;
+    letter-spacing:var(--spacing);
+    color: var(--clr-grey);
+}
+
+
+
+.question-btn{
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor:pointer;
+    color: var(--clr-gold);
+    transition:var(--transition);
+    margin-left: 400px;
+    
+}
+
+.question-btn:hover{
+    transform:rotate(90deg);
+    background-color: rgb(172, 129, 129); 
+    transition: background-color 2s;
+}
+
+
+
+.question-text {
+    
+    padding:1rem 0 1.5rem 0;
+    border-bottom: 10px solid rgba(0,0,0,0.2);
+    transition:border-bottom 2s;
+    
+    
+}
+
+
+.question-text p {
+    margin-bottom:0;
+}
+
+
+/*hide text*/
+.question-text{
+    display:none;
+}
+/*once show text has been added through the classList to question text*/
+.show-text  .question-text{   
+    display:block;
+}
+
+.minus-icon{
+    display:none;
+}
+
+.show-text .minus-icon{
+    display:inline;
+}
+
+.show-text .plus-icon{
+    display:none;
+}
