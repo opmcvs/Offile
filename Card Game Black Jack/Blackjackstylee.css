@@ -18,12 +18,15 @@ color:darkgoldenrod;
 color: white;
 font-style:italic;
 }
+.div-btn{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
 
 /*#start-btn,#newcard-btn{*/
 #start-btn{
-  display:block;
   margin-top: 20px;
-  margin-left: 130px;
   background-color: red;  
   color:black;
   width:150px;
@@ -35,9 +38,7 @@ font-style:italic;
 }
 
 #newcard-btn {
-    display: block;
     margin-top:20px;
-    margin-left:130px;
     background-color: red;
     color: black;
     width: 150px;
