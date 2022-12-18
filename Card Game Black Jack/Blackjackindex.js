@@ -62,8 +62,7 @@ newcardBtn.addEventListener("click",()=>{
     
     sum += newCard;
     cards.push(newCard);
-    renderGame();
-    console.log("newCard");
+    renderGame();    
 })
 
 
