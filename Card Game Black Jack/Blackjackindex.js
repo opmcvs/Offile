@@ -37,13 +37,9 @@ function startGame(){
 startBtn.addEventListener("click",  renderGame);
 function renderGame() {
 cardsEl.textContent = `Cards: `;   
-//cardsEl.textContent+= `${firstCard} & ${secondCard}`;
 // if you won't do this it will repeat the value in the 
-//newCard funcion 
-//sumEl.textContent+=sum;
-//${cards[0]} & ${cards[1]
 
-for (let i=0; i<cards.length;i++){
+    for (let i=0; i<cards.length;i++){
     cardsEl.textContent += cards[i] + " "
 }
 
