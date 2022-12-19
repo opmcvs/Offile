@@ -56,10 +56,11 @@ startBtn.addEventListener("click",function startGame(){
 
 
 newCardBtn.addEventListener("click", function newCard(){
-
+if(hasBlackJack === false && isAlive === true){
     let card = getRandomCard()
     sum += card
     cards.push(card)
     renderGame()
+}
 })
 
