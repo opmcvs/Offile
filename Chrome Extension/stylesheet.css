@@ -1,0 +1,43 @@
+body{
+    min-width:400px;
+}
+.div-el > #ul-el,.input-btndiv{
+    margin-top: 30px;
+    display:flex;
+    justify-content:center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    
+}
+
+ .input-btndiv{
+ margin-top:20px;
+ border:none;
+ 
+ background-color: green;
+ color: white;
+ width:25%;
+ justify-content: center;
+margin-left:300px;
+ }
+
+#input-el{
+    margin-right:10px;
+    border-style: dotted;
+    border-color: green;
+    padding-left: 10px;
+    padding-right:10px;
+    width:100%;
+    box-sizing:border-box/* so it keeps it width of 100%
+    and the padding added*/
+}
+
+
+ul,li, a{
+margin-top:5px;    
+color:green;
+list-style-type: none;
+padding-left:0;
+}
+
