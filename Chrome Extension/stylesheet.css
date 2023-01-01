@@ -1,43 +1,48 @@
-body{
-    min-width:400px;
-}
-.div-el > #ul-el,.input-btndiv{
-    margin-top: 30px;
-    display:flex;
-    justify-content:center;
-    
+
+
+
+
+
+
+.div-el {
+    margin: 0;
+    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    flex-wrap: wrap;
-    
+    min-width: 400px;
 }
 
- .input-btndiv{
- margin-top:20px;
- border:none;
- 
- background-color: green;
- color: white;
- width:25%;
- justify-content: center;
-margin-left:300px;
- }
-
-#input-el{
-    margin-right:10px;
-    border-style: dotted;
-    border-color: green;
-    padding-left: 10px;
-    padding-right:10px;
-    width:100%;
-    box-sizing:border-box/* so it keeps it width of 100%
-    and the padding added*/
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
 }
 
+button {
+    background: #5f9341;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+}
 
-ul,li, a{
-margin-top:5px;    
-color:green;
-list-style-type: none;
-padding-left:0;
+#delete-btn {
+    background:red;
+    color: white;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #5f9341;
 }
 
