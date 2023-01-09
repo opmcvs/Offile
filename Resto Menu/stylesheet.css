@@ -1,0 +1,121 @@
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+body {
+    display: flex;
+    min-width: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    line-height: 3.00;
+    margin-right: -550px;
+
+
+
+}
+
+.underline {
+    width: 45px;
+    height: 3px;
+    background: gold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    margin-bottom: 20px;
+
+}
+
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 250px;
+    row-gap: 50px;
+
+}
+
+.btn-container {
+    display: flex;
+
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-left: -585px;
+    justify-content: space-between;
+    padding-left: 80px;
+}
+
+.filter-btn:hover {
+    background-color: red;
+}
+
+.section-center {
+
+    margin: 0 auto;
+    max-width: 900px;
+    display: grid;
+    column-gap: 250px;
+    row-gap: 50px;
+    justify-items: center;
+    grid-template-columns: 1fr 2fr;
+
+
+
+
+
+    /* display: grid;
+
+    row-gap: 30px;
+     column-gap: 40px; 
+    justify-items: center; */
+}
+
+.menu-item {
+    display: grid;
+    gap: 1rem 2rem;
+    max-width: 25rem;
+}
+
+.photo {
+    object-fit: cover;
+    height: 200px;
+    border-width: 5px;
+    border-style: groove;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.item-info {
+    display: flex;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-width: 3px;
+    border-bottom-style: dashed;
+    border-bottom-color: black;
+}
+
+/* .item-info h4 {
+    margin-bottom: 0.5rem;
+} */
+
+.price {
+    color: black;
+    font-style: italic;
+}
+
+.item-text {
+    margin-bottom: 0;
+    padding-top: 15px;
+}

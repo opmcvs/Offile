@@ -1,7 +1,9 @@
 
 
 
-
+body{
+    min-width: 400px;
+}
 
 
 .div-el {
