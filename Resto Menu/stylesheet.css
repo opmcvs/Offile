@@ -1,5 +1,5 @@
 main {
-    min-height: 100vh;
+    min-height: 1000px;
     display: grid;
     place-items: center;
 }
@@ -7,15 +7,16 @@ main {
 body {
     display: flex;
     min-width: 800px;
-    margin-left: 100px;
-    margin-right: 100px;
+
 }
 
 .title {
     display: block;
     text-align: center;
-    line-height: 3.00;
-    margin-right: -550px;
+    line-height: 2.00;
+    margin-bottom: 50px;
+    
+    /* margin-right: -500px; */
 
 
 
@@ -34,54 +35,35 @@ body {
 
 
 .menu {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 250px;
-    row-gap: 50px;
-
+    padding: 80px 0;
 }
 
 .btn-container {
-    display: flex;
-
     text-align: center;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-    margin-top: 100px;
-    margin-left: -585px;
-    justify-content: space-between;
-    padding-left: 80px;
+    position: fixed;
+        margin-top: -35px;
+        margin-left: 300px;
+        margin-bottom: 30px;    
+       
 }
-
 .filter-btn:hover {
     background-color: red;
+    font-style: oblique;
+    font-family:cursive;
 }
 
 .section-center {
-
-    margin: 0 auto;
-    max-width: 900px;
     display: grid;
-    column-gap: 250px;
+    grid-template-columns: 1fr 1fr;
     row-gap: 50px;
+    column-gap: 40px;
     justify-items: center;
-    grid-template-columns: 1fr 2fr;
-
-
-
-
-
-    /* display: grid;
-
-    row-gap: 30px;
-     column-gap: 40px; 
-    justify-items: center; */
 }
 
 .menu-item {
     display: grid;
-    gap: 1rem 2rem;
-    max-width: 25rem;
+    gap: 16px 32px;
+    max-width: 400px;
 }
 
 .photo {
@@ -89,33 +71,36 @@ body {
     height: 200px;
     border-width: 5px;
     border-style: groove;
-    border-color: red;
-    border-radius: 10px;
+    border-color: crimson;
+    border-radius:10px;
+    
 }
 
-.item-info {
+.item-info header {
     display: flex;
-
-}
-
-header {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     border-bottom-width: 3px;
     border-bottom-style: dashed;
     border-bottom-color: black;
+
 }
 
-/* .item-info h4 {
-    margin-bottom: 0.5rem;
-} */
+.item-info h4 {
+    margin-bottom: 8px;
+}
 
 .price {
-    color: black;
-    font-style: italic;
+    color:chocolate;
+}
+
+.description{
+color:coral;
+font-style: oblique;
+font-family: 'Times New Roman', Times, serif;
 }
 
 .item-text {
     margin-bottom: 0;
-    padding-top: 15px;
+    padding-top: 16px;
 }
